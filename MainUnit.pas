@@ -86,7 +86,6 @@ begin
      // 打开一个excel文件
     ExcelApp.WorkBooks.Open(ledAttachment.Text);
     conList.BeginUpdate;
-    
     try
       ExcelApp.WorkSheets[1].Activate;
       Sheet := ExcelApp.WorkSheets[1];
