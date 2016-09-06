@@ -114,7 +114,6 @@ begin
     finally
          // 关闭工作区
       ExcelApp.WorkBooks.Close;
-
     end;
     if ledAttachment2.Text<>'' then
        begin
