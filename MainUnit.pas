@@ -108,7 +108,7 @@ begin
         else
           //ShowMessage(Strs.CommaText);
           conList.Add(Strs.CommaText);
-          writeWorkLog(Strs.CommaText);
+         // writeWorkLog(Strs.CommaText);
       end;
     
     finally
