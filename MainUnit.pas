@@ -336,6 +336,7 @@ begin
     ShowMessage('成功发送'+IntToStr(S)+'封邮件,'+'失败'+IntToStr(F)+'封邮件');
     writeWorkLog('----------------end----------------------');
 
+    
 end; (* btnSendMail Click *)
 
 procedure TMailerForm.SMTPStatus(ASender: TObject; const AStatus: TIdStatus;
