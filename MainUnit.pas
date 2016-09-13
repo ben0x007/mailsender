@@ -366,7 +366,6 @@ begin
 end;
 
 
-
 procedure TMailerForm.FormCreate(Sender: TObject);
 begin
   GetSettings;
