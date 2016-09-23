@@ -326,7 +326,7 @@ begin
     titList.Clear;
     tit2List.Clear;
     titTmpList.Clear;
-    tit2TmpList.Clear;
+    //tit2TmpList.Clear;
     conList.Clear;
     con2List.Clear;
     tempList.Clear;
